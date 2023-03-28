@@ -5,7 +5,7 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "start": "react-scripts start",
+    "start": "npm run dev",
     "prodeploy": "npm run build",
     "dev": "vite",
     "deploy": "gh-pages -d build",
