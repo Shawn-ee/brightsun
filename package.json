@@ -1,10 +1,14 @@
 {
+  "homepage": "http://shawn-ee.github.io/brightsun",
   "name": "react-ts-app",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "start": "react-scripts start",
+    "prodeploy": "npm run build",
     "dev": "vite",
+    "deploy": "gh-pages -d build",
     "build": "env=PRD && tsc && vite build",
     "preview": "vite preview",
     "test": "vitest"
